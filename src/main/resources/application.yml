@@ -1,0 +1,11 @@
+server:
+    port: 8080
+    servlet:
+        contextPath: /api/1/document-analyzer
+
+spring:
+    servlet:
+        multipart:
+            enabled: true
+            maxFileSize: 150MB
+            maxRequestSize: 150MB
